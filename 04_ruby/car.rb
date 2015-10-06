@@ -63,7 +63,7 @@ class Car
   attr_accessor :speed
 
   def initialize(speed = 0, a = 2, b = 3)
-    @speed = speed if speed.is_a?(Fixnum)
+    @speed = speed
     @a = a
     @b = b
   end

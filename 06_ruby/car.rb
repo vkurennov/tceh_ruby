@@ -1,10 +1,20 @@
 
-
 class Car
+
   attr_reader :current_rpm
 
   def initialize
     @current_rpm = 0
+  end
+
+  # def self.description
+  #   "Это родительский класс для всех авто"
+  # end
+
+  class << self
+    def description
+      "Это родительский класс для всех авто"
+    end
   end
 
   def start_engine
