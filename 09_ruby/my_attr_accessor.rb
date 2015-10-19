@@ -7,7 +7,7 @@ module MyAttrAccessor
       define_method("#{name}_history") do        
         instance_variable_get("@#{name}_history")
       end
-      
+
       define_method("#{name}=") do |value|
         history = instance_variable_get("@#{name}_history")
         instance_variable_set("@#{name}_history", []) unless history 
