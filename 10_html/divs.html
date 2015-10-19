@@ -2,12 +2,17 @@
 <html>
     <head>
         <meta charset="utf8" />
-        <title>Врубиться в html</title>   
+        <title>Врубиться в html</title>  
+        <link type="text/css" rel="stylesheet" href="stylesheet.css" /> 
     </head>
     <body>
         <h1>Divs</h1>  
-        <div style="height:50px; background-color: red;">Красный</div>
-        <div style="height:50px; background-color: blue;">Синий</div>
-        <div style="height:50px; background-color: green;">Зеленый</div>
+        <div class="block" id="red">Красный</div>
+        <div class="block" id="blue">Синий</div>
+        <div class="block" id="green">Зеленый</div>
+        <div class="test block" id="test">Test</div>
+        <div class="block">
+          <div class="test">.block .test</div>
+        </div>
     </body>
 </html>

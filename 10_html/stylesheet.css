@@ -1,0 +1,66 @@
+/** {
+	border: 1px solid black;
+}*/
+
+h3 {
+	font-weight: bold;
+	/*color: #f00;  #ff0000 */
+	color: rgb(255, 0, 0);
+	font-family: Courier New;
+}
+
+div div p {
+	background-color: black;
+	color: white;
+}
+
+div, h4 {
+	font-size: 26px;
+}
+
+
+p {
+	color: red;	
+	font-size: 14px;
+	font-family: Tahoma, Georgia, Arial;
+}
+
+
+/* Стили для divs.html */
+.block {
+	height: 50px;
+}
+
+#red {
+	background-color: red;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#green {
+	background-color: green;
+}
+
+.block#red {
+	font-size: 55px;
+}
+
+.block.test {
+	border: 10px solid black;
+}
+
+.block .test {
+	font-size: 30px;
+}
+
+
+#test {
+	background-color: magenta;
+}
+
+.test {
+	background-color: yellow;
+}
+
